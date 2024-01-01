@@ -1,0 +1,86 @@
+.Eduction{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+.Eduction h1{
+    font-size: 4.5rem;
+    color: rgb(35, 217, 151);
+    font-family: Orbitron, sans-serif;
+    margin-top: 2rem;
+}
+.card__section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 5rem;   
+}
+.container__eduction{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 3rem 0px;
+    background-color: #efefef;
+}
+.container__eduction > h1{
+    font-size: 4.5rem;
+    color: rgb(35, 217, 151);
+    font-family: Orbitron, sans-serif;
+
+
+}
+.card__container{
+   display: flex;
+    flex-direction: column;
+    margin: 4rem ;
+    border: 1px solid rgb(172, 171, 171);
+    border-radius: 20px;
+    text-align: center;
+    width: 18rem;
+    height: 24rem;
+    box-shadow: -7px 17px 13px 3px rgba(0, 0, 0, 0.5);
+    background: #fff;
+    justify-content: center;
+    position: relative;
+}
+.Aleppo_unverstiy {
+   
+   margin-left: 2.9rem;
+    padding: 1rem;
+     width: 60%;
+}
+.pragraph{
+    padding: 0px 1rem;
+   
+}
+.pragraph h3{
+    font-weight: bolder;
+    color: rgb(254, 136, 0);
+    font-size: 1.3rem;
+    
+}
+.pragraph h6{
+    margin-bottom: 1rem;
+    color: rgb(35, 217, 151);
+    font-weight: bold;
+}
+.pragraph p{
+    color:rgb(90 105 103);
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 920px) {
+    .card__section{
+        grid-template-columns: 1fr ;
+     
+    }
+
+}

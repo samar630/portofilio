@@ -1,0 +1,29 @@
+.skills__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skills__content{
+   display: flex;
+   gap: 1rem;
+   padding:1rem
+}
+.image__skills{
+   width:45px;
+   height:45px;
+   object-fit:contain;
+   margin-top:0.4rem
+}
+
+@media screen and (max-width:1024px) {
+    .skills__container{
+        grid-template-columns: 1fr 1fr; 
+    }
+  
+}
+@media screen and (max-width:720px) {
+    .skills__container{
+        grid-template-columns: 1fr; 
+    }
+  
+}
