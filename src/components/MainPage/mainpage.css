@@ -150,4 +150,8 @@ font-size: 1.5rem;
     .body__home{
       margin: 10% 2%;
     }
+    .logo{
+        left: 1rem;
+        top: 0.7rem;
+    }
   }
