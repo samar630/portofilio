@@ -1,0 +1,94 @@
+.area__cart{
+    padding: 2rem;
+    margin: 2rem;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap:2rem;
+    grid-template-columns: 1fr 1fr;
+}
+.card__of__project{
+    background: white;
+    box-shadow: 2px 2px 2px 2px rgba(49, 49, 49, 0.5);
+    border-radius: 2%;
+    width: 18rem;
+    height: 30rem;
+}
+.image__section_1{
+    background-image: linear-gradient(to right bottom, rgb(141, 138, 141), rgba(158, 152, 157, 0.07)),url(./../../assests/project/Node.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 16rem;  
+    position: relative; 
+}
+.image__section_2{
+    background-image: linear-gradient(to right bottom, rgb(141, 138, 141), rgba(158, 152, 157, 0.07)),url(./../../assests/project/dashboard__shipping.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 16rem;  
+    position: relative; 
+}
+.image__section{
+   background-image: linear-gradient(to right bottom, rgb(141, 138, 141), rgba(158, 152, 157, 0.07)),url(./../../assests/project/chat.png) ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 16rem;  
+   position: relative; 
+   
+}
+.name__of__project{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: var(--primary-color);
+    z-index: 3;
+    padding: 0.5rem;
+    margin: 1rem;
+   
+}
+.image__section > img{
+    width: 100%;
+    object-fit: cover;
+    opacity: 50%;
+
+}
+.section__bottom{
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid rgb(182, 179, 181);
+}
+.section__bottom h1{
+    color:var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: bold;   
+}
+p{
+    color: rgb(167, 148, 159);
+    font-size: 0.8rem;
+    
+}
+.icon__project{
+    display: flex;
+   gap: 1.5rem;
+   padding: 0.7rem 1.5rem;
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+}
+.icon h5{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgb(167, 148, 159);
+}
+.button__details button{
+    background:var(--primary-color);
+    padding: 0.2rem;
+    margin: 0.5rem 1.5rem;
+    width: 4rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    font-weight: 600; 
+}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import './mainpage.css'
 import cv from './../../assests/cv.pdf'
 const MainPages = () =>{
@@ -19,19 +19,19 @@ const MainPages = () =>{
             </li>
             <li  className='button__menu' > 
             <button>
-                <a href="projects" >Projects</a>
+                <a href="/projects" >Projects</a>
              </button>
             </li>
             <li className='button__menu'>   
             <button>
-                <a href="contact me" >Contact me</a>
+                <a href="contact" >Contact me</a>
                </button>
             </li>  
         </ul>
         <div className="siderBar">
             <ul className="flex gap-8 text-lg">
-              <li><a className="a_element" href="project">Project</a></li>
-              <li><a className="a_element" href="contact_me">contact me</a></li>
+              <li><a className="a_element" href="projects">Project</a></li>
+              <li><a className="a_element" href="contact">contact me</a></li>
             </ul>
         </div>    
       </nav>
