@@ -2,8 +2,9 @@ import React, { useRef } from 'react';
 import './contact.css'
 import {MdOutlineEmail} from "react-icons/md";
 import {BsMessenger,BsWhatsapp} from'react-icons/bs';
-import emailjs from 'emailjs-com'
-const Contact = () => {
+import emailjs from 'emailjs-com';
+
+const Contacts = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
@@ -11,13 +12,13 @@ const Contact = () => {
             e.target.reset()
     };
     return(
-        <section id='contact'>
-           <div className='container contact__container'>
+        <div className='contact'>
+           <div className='contact__container'>
             <div className='contact__options'>
                 <article className='contact__option'>
                     <MdOutlineEmail className='contact__option__icon'/>
                     <h2>Email</h2>
-                    <h3 style={{fontSize:'small'}}>samarkaddour589@gamil.com</h3>
+                    <h3 style={{fontSize:'0.7rem'}}>samarkaddour589@gamil.com</h3>
                     <a href='mailto:samarkaddour589@gamil.com' target='_blank' rel="noreferrer">Send a message</a>
                 </article>
                 <article className='contact__option'>
@@ -37,10 +38,10 @@ const Contact = () => {
                   <input type='text' name='name' required placeholder='Your Full Name' />
                   <input type='email' name='email' required placeholder='Your Email' />
                   <textarea required placeholder='your Message' name='message' rows='7'></textarea>
-                  <button className='btn btn-primary' type='submit' name='message'>Send Message</button>
+                  <button className='button' type='submit' name='message'>Send Message</button>
               </form>
            </div>
-        </section>
+        </div>
     )
 }
-export default Contact;
+export default Contacts;

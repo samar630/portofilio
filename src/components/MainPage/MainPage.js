@@ -24,14 +24,14 @@ const MainPages = () =>{
             </li>
             <li className='button__menu'>   
             <button>
-                <a href="contact" >Contact me</a>
+                <a href="/contact" >Contact me</a>
                </button>
             </li>  
         </ul>
         <div className="siderBar">
             <ul className="flex gap-8 text-lg">
-              <li><a className="a_element" href="projects">Project</a></li>
-              <li><a className="a_element" href="contact">contact me</a></li>
+              <li><a className="a_element" href="/projects">Project</a></li>
+              <li><a className="a_element" href="/contact">contact me</a></li>
             </ul>
         </div>    
       </nav>
@@ -53,7 +53,7 @@ const MainPages = () =>{
           </p>
           <div className="button__section">
             <button className="contact__me">
-              <a href="contact_me">Contact me</a>
+              <a href="contact">Contact me</a>
               </button>
             <button className="download__cv" type="download" >
               <a href={cv} >download cv</a> 

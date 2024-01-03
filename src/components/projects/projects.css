@@ -7,6 +7,11 @@
     gap:2rem;
     grid-template-columns: 1fr 1fr;
 }
+@media screen and (max-width: 1024px) {
+    .area__cart{
+        grid-template-columns: 1fr;
+    }
+}
 .card__of__project{
     background: white;
     box-shadow: 2px 2px 2px 2px rgba(49, 49, 49, 0.5);

@@ -1,5 +1,15 @@
-.container.contact__container{
-    width: 58%;
+.contact{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    display: grid;
+    grid-template-columns:1fr;
+}
+
+.contact__container{
+      width: 58%;
       display: grid;
       grid-template-columns: 30% 58%;
       gap:12%;
@@ -7,16 +17,18 @@
   .contact__options{
       display:flex;
       flex-direction: column;
-      gap: 1.2rem;
+      gap: 1rem;
+      
   }
   .contact__option{
-      background: var(--color-bg-variant);
-      padding: 1.2rem;
+      background: var(--primary-color);
+      padding: 1rem;
       border-radius: 1.2rem;
       text-align: center;
       text-align: center;
       border: 1px solid transparent;
       transition: var(--transition);
+
   }
   .contact__option:hover{
       background: transparent;
@@ -24,7 +36,7 @@
   }
   .contact__option__icon{
       margin-bottom:0.5rem ;
-      font-size: 2rem;
+      font-size: 1rem;
   }
   .contact__option>input{
       font-size: 1rem;
@@ -32,7 +44,7 @@
   .contact__option a{
       margin-top: 0.7rem;
       display: inline-block;
-      font-size: 1.4rem;
+      font-size: 1rem;
   }
   form{
       display: flex;
@@ -44,23 +56,25 @@
       padding: 1.5rem;
       border-radius: 0.5rem;
       background: transparent;
-      border: 2px solid var(--color-primary-variant);
+      border: 2px solid var(--primary-color);
       resize: none;
       font-size: 1.5rem;
       color: var(--color-white);
   }
-  form > button{
+  .button{
       font-size: 1.2rem;
+      background-color: var(--primary-color);
+      border-radius: 0.5rem;
+      height: 2rem;
+      color: black;
+      
   }
   @media screen and (max-width: 1024px) {
-      .container.contact__container{
+      .contact__container{
         grid-template-columns:1fr ;
           gap: 2rem;
       }
   }
-  @media screen and (max-width: 600px) {
-      .container.contact__container{
-          width: var(--container-width-sm);
-      }
+
   
-  }
+  
