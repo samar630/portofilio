@@ -90,7 +90,9 @@ const Skills = () =>{
 
     ]
     return (
-      <div className="skills__container" >
+       <div className="skills">
+         <h1>Skills</h1>
+      <div className="skills__container" >   
          {skills.map((skill,index) =>{
            return(
                <div className="skills__content" >
@@ -107,6 +109,7 @@ const Skills = () =>{
         })}
      
   </div> 
+       </div>
     )
 }
 

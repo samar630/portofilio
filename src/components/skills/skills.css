@@ -1,7 +1,25 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.skills h1{
+    font-size: 4.5rem;
+    color: rgb(35, 217, 151);
+    font-family: Orbitron, sans-serif;
+}
 .skills__container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+  
 }
+.skills__container h1{
+    font-size: 4.5rem;
+    color: rgb(35, 217, 151);
+    font-family: Orbitron, sans-serif;
+}
+
 
 .skills__content{
    display: flex;
